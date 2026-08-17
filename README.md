@@ -1,12 +1,12 @@
 # Directionally Correct topic and episode explorer
 
-Interactive exploration of 150 public Directionally Correct podcast episodes:
+Interactive exploration of the public Directionally Correct podcast archive:
 
 **Live application:** https://lstehlik2809.github.io/directionally-correct-topic-map/
 
 ## What the application shows
 
-- a network, frequency view, timeline, and searchable episode catalog covering 298 topics
+- a network, frequency view, timeline, and searchable episode catalog of controlled topics
 - topic relationships, clusters, occurrence counts, and episode-level co-occurrence
 - episode details, structured ideas, source links, and semantically related episodes
 - evidence-linked topic syntheses showing convergence, divergence, conflicts, and distinctive ideas
