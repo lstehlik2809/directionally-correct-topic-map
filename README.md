@@ -28,7 +28,10 @@ contains no API key.
 
 The application was authored locally in React and TypeScript and compiled into static HTML, CSS, and
 JavaScript with Vite. Its network visualization uses `react-force-graph-2d` and deterministic weighted
-Louvain community detection.
+Louvain community detection. Each corpus update recalculates the full network, then reconciles detected
+clusters with the previous build by weighted topic overlap so continuing clusters keep stable identities.
+New or materially changed clusters receive descriptive GPT-5.6 Sol labels based on their most frequent
+controlled topics.
 
 The browser datasets were derived locally from controlled topic tags and structured ideas extracted from
 the public episode corpus. Semantic episode recommendations were calculated before deployment. The topic
